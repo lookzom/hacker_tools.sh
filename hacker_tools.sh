@@ -21,7 +21,7 @@
      # Меню с 50 инструментами
      while true; do
          choice=$(dialog --clear --backtitle "Hacker Tools" --title "Меню" \
-         --menu "Выберите инструмент:" 20 60 15 \
+         --menu "Выберите инструмент:" 25 80 20 \
          1 "Nmap (сканирование сети)" \
          2 "Metasploit (тестирование уязвимостей)" \
          3 "SQLmap (тестирование SQL-инъекций)" \
