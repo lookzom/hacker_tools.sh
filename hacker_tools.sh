@@ -15,6 +15,7 @@
          fi
          echo "Запуск $tool_name..."
          eval $run_command
+         read -p "Нажмите Enter, чтобы вернуться в меню..."
      }
 
      # Меню с 50 инструментами
